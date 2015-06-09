@@ -1,0 +1,19 @@
+{
+  "name": "multisteps",
+  "version": "1.0.0",
+  "description": "Minimal, non-graphical (controller-only) content slider for jQuery",
+  "main": "multisteps.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Loilo/multisteps.git"
+  },
+  "author": "Florian Reuschel <florian@loilo.de> (http://loilo.de)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Loilo/multisteps/issues"
+  },
+  "homepage": "https://github.com/Loilo/multisteps#readme"
+}
