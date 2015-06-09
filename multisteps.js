@@ -1,23 +1,23 @@
 ( function( $ ) {
 var Multisteps = function( $el, options ) {
-    $el.addClass( 'multisteps' );
+	$el.addClass( 'multisteps' );
 
-    // set some defaults
-    if ( typeof options === 'undefined' ) options = {};
+	// set some defaults
+	if ( typeof options === 'undefined' ) options = {};
 
-    var defaults = {
-    	start: 0,
-    	loop: false,
-    	orientation: 'vertical',
-    	animateIn: 'fadeInUp',
-    	animateOut: 'fadeOutUp',
-    	onChange: function () {},
-    	onAfterChange: function () {}
-    };
+	var defaults = {
+		start: 0,
+		loop: false,
+		orientation: 'vertical',
+		animateIn: 'fadeInUp',
+		animateOut: 'fadeOutUp',
+		onChange: function () {},
+		onAfterChange: function () {}
+	};
 
-    for (var option in defaults)
-    	if (typeof options[option] === 'undefined')
-    		options[option] = defaults[option];
+	for (var option in defaults)
+		if (typeof options[option] === 'undefined')
+			options[option] = defaults[option];
 
 
 	// check animation support
@@ -30,7 +30,7 @@ var Multisteps = function( $el, options ) {
 			pfx  = '',
 			elm = document.body;
 
-		if( elm.style.animationName !== undefined ) { animation = true; }    
+		if( elm.style.animationName !== undefined ) { animation = true; }
 
 		if( animation === false ) {
 			for( var i = 0; i < domPrefixes.length; i++ ) {
