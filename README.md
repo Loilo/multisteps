@@ -8,18 +8,18 @@ Easy.
 1. Include `multisteps.js` and `multisteps.css` in your page.
 
 2. Create a DOM structure like this:
-    ```html
-<div id="slider">
-    <div class="step">First step</div>
-    <div class="step">Second step</div>
-    <div class="step">Third step</div>
-</div>
-```
+   ```html
+   <div id="slider">
+       <div class="step">First step</div>
+       <div class="step">Second step</div>
+       <div class="step">Third step</div>
+   </div>
+   ```
 
 3. Initialize:
-    ```javascript
-$( '#slider' ).multisteps( options );
-```
+   ```javascript
+   $( '#slider' ).multisteps( options );
+   ```
 
 ## Options
 
